@@ -1,0 +1,9 @@
+<template>
+    <lightning-button label="Login"
+                      onclick={openModal}
+                      class="slds-m-left_x-small">
+    </lightning-button>
+    <div if:true={open}>
+    <c-popup-component onvaluechange = {closeModal} ></c-popup-component>
+    </div>
+</template>

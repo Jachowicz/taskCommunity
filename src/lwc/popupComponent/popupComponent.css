@@ -1,0 +1,139 @@
+.label {
+    text-align: center;
+}
+.image {
+    width: 20%;
+    height: 5%;
+    margin: auto;
+    justify-content: center;
+    padding-bottom:1% ;
+
+}
+
+
+.content {
+    background: white;
+    border-radius: 20px;
+    height: 100%;
+}
+.leftBox{
+    width: 50%;
+    height: 80%;
+    border-right:0.5px solid grey;
+    float : left;
+    text-align:center;
+}
+.rightBox{
+    width: 50%;
+    height: 80%;
+    float : left;
+    /*border: solid;*/
+    text-align:center;
+}
+.signIn{
+    color : deeppink;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-bottom: 15%;
+}
+
+
+.inputs{
+
+    width: 80%;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 8%;
+    outline: none;
+
+}
+p{
+    padding-top: 7% ;
+    text-align: center;
+}
+
+.button{
+    width: 40%;
+    height: 10%;
+    margin-top: 5%;
+    background: white;
+    border : 1px solid deeppink;
+    border-radius: 20px;
+    float: bottom;
+    outline: none;
+
+}
+.button p{
+    color : deeppink;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
+}
+.hyperlink{
+    width: 100%;
+}
+.notAMember{
+    color : deeppink;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.signUp{
+    color : deeppink;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.checkboxLine{
+    margin-left: 1%;
+    color : deeppink;
+    width: 100%;
+    display: block;
+    padding-top: 4%;
+    font-size: 18px;
+    text-align: left;
+    justify-content: left;
+}
+.checkboxes{
+    padding-top: 12%;
+    justify-content: left !important;
+}
+.checkboxes .checkboxLine span{
+    color: black;
+    padding-left: 1%;
+}
+.buttonClose {
+    text-align: right;
+    outline: none;
+    border: none;
+
+}
+.icon{
+    color: deeppink;
+}
+.buttonSignUp{
+    color: white;
+    background : deeppink;
+    width: 40%;
+    height: 10%;
+    margin-top: 5%;
+    border : 1px solid deeppink;
+    border-radius: 20px;
+    float: bottom;
+    outline: none;
+
+}
+.buttonSignUp p{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
+}
+
