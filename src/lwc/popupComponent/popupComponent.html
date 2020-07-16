@@ -33,9 +33,12 @@
                 <div class="leftBox">
                     <div class="signIn">Sign In</div>
                     <p>User Name</p>
-                    <input name = "user" class="inputs" type="text" value={userName} onchange={handleFormInputChange}>
+                    <input name = "user" class="inputs" type="email" value={userName} onclick={handleError} onchange={handleFormInputChange}>
                     <p>Password</p>
-                    <input name = "pass" class="inputs" type="password" value={password} onchange={handleFormInputChange}>
+                    <input name = "pass" class="inputs" type="password" value={password} onclick={handleError} onchange={handleFormInputChange}>
+                    <div if:true={showError}>
+                        <p class="errorMessage">{errorMessage}</p>
+                    </div>
                     <button class="button" onclick={loginToCommunity}><p>Sign In</p></button>
                     <div class="hyperlink">
                         <a href="/s/login">Forgot your password?</a>
@@ -43,7 +46,6 @@
                 </div>
 
                 <div class="rightBox">
-
                     <div class="notAMember">Not a member?</div>
                     <div class="signUp">Sign Up</div>
                     <div class="checkboxes">
